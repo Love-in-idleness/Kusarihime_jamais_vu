@@ -256,8 +256,7 @@ label start:
 
     "不久，列车抵达了站台。\n并没有广播的提示声，取而代之的是一如既往的寂静。"
 
-    scene bg 0655
-    with Dissolve(.5)
+    scene bg 0655 with Dissolve(.5)
 
     "乘客们下了车，\n稀稀拉拉地走向了检票口。"
 
