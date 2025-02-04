@@ -1,6 +1,7 @@
 *.txt
 *.rpyc
 *.rpymc
+*.keystore
 /game/saves/
 /game/cache/
 /.vscode/
