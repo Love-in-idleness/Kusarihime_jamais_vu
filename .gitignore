@@ -1,5 +1,4 @@
-log.txt
-traceback.txt
+*.txt
 *.rpyc
 *.rpymc
 /game/saves/
