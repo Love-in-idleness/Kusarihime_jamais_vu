@@ -929,7 +929,7 @@ label start:
 
 
 
-scene bg 0508
+    scene bg 0508
     with Fade(1.0, 1.0, 1.0)
     show z9016
     show z9017
