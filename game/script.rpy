@@ -2833,7 +2833,7 @@ label start:
 
     g "……………………"
         
-    i "「……我已经在你那里依靠的够多了。」
+    i "「……我已经在你那里依靠的够多了。」"
 
     g "…………"
         
@@ -2849,6 +2849,11 @@ label start:
 
     stop music fadeout 1
     play sound "0619.mp3"
+
+
+
+
+
 
     pause(4)
     stop sound fadeout 1
@@ -2897,6 +2902,11 @@ label start:
     "汽笛的声音把润和五树的笑声盖过。"
 
     scene bg 0999 with fade
+
+
+
+
+
 
     play sound "0618.mp3"
     pause(12)
@@ -2998,6 +3008,10 @@ label start:
     show j 1902 with Dissolve(0.5)
     stop sound fadeout 1
     pause(2)
+
+
+
+
 
     scene bg 0601-dark1 
     show z9020-dark1 with Dissolve(3)
