@@ -1,257 +1,8 @@
-default hide_dialogue_ui = True
-
-style say_dialogue:
-    properties gui.text_properties("dialogue")
-
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-    slow_cps 16  #每秒出现的字符数
-    slow_abortable True  #点击鼠标后全部显现文本
-
-
-
-
-
-
-
-define i = Character("五树")
-define j = Character("树里")
-define r = Character("润")
-define y = Character("芳野")
-define f = Character("建昭")
-define q = Character("伊势")
-define g = Character("青磁")
-define n = Character("夏生")
-
-
-
-
-
-transform realleft:
-    xpos 0.25
-    xanchor 0.5
-
-transform littleleft:
-    xpos 0.35
-    xanchor 0.5
-
-transform realright:
-    xpos 0.75
-    xanchor 0.5
-
-transform littleright:
-    xpos 0.65
-    xanchor 0.5
-
-
-transform zi:
-    xpos 0.48
-    xanchor 0.5
-    ypos 0.48
-    yanchor 0.5
-
-
-transform uu:
-    yalign 0.15
-    xalign 0.5
-
-transform uf:
-    yalign 0.25
-    xalign 0.5
-
-transform ud:
-    yalign 0.3
-    xalign 0.5
-
-transform fu:
-    yalign 0.4
-    xalign 0.5
-
-transform ff:
-    yalign 0.5
-    xalign 0.5
-
-transform fd:
-    yalign 0.6
-    xalign 0.5
-
-
-
-
-
-
-init python:
-    renpy.music.register_channel("remusic", mixer=None, loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False)
-
-
-
-
-
-
-
-
-
-
-
-style re_small:
-    color "#c00d0d"
-    size 35
-    textalign 0.5
-
-style re_big:
-    color "#c00d0d"
-    size 70
-    textalign 0.5
-
-style wh_small:
-    color "#ffffff"
-    size 40
-    textalign 0.5
-
-style wh_big:
-    color "#ffffff"
-    size 80
-    textalign 0.5
-
-
-
-
-
-
-image t1 = Text("腐姬",style="re_big")
-image t2 = Text("neuthanasia",style="re_small")
-image t3 = Text("归省",style="wh_big")
-image t4 = Text("~jamais vu~",style="wh_small")
-image t5 = Text("企画・剧本",style="wh_small")
-image t6 = Text("星空めてお",style="wh_big")
-image t7 = Text("原画・角色设计",style="wh_small")
-image t8 = Text("中村哲也",style="wh_big")
-image t9 = Text("背景原画",style="wh_small")
-image t10 = Text("米谷要",style="wh_big")
-image t11 = Text("合作：スタジオ尻滅裂",style="wh_small")
-image t12 = Text("ＣＧ绘制",style="wh_small")
-image t13 = Text("しまさらゆめき\n犬太郎\nfmaina\n白鬼",style="wh_big")
-image t14 = Text("中村哲也\nK.TEN\n桜瑞",style="wh_big")
-image t15 = Text("音乐",style="wh_small")
-image t16 = Text("杂音工房NOIZE",style="wh_big")
-image t17 = Text("程序",style="wh_small")
-image t18 = Text("Wiz codeX",style="wh_big")
-image t19 = Text("制作・著作\n\n株式会社ビジネスパートナー\nLiar-soft",style="wh_big")
-
-
-
-
-
-
-
-
-
-
-image bg 0504-dark2 = im.MatrixColor(
-    "bg 0504.webp",
-    im.matrix.brightness(-0.3))
-
-image bg 0504-dark1 = im.MatrixColor(
-    "bg 0504.webp",
-    im.matrix.brightness(-0.15))
-
-image z9004-dark2 = im.MatrixColor(
-    "z9004.webp",
-    im.matrix.brightness(-0.3))
-
-image z9006-dark2 = im.MatrixColor(
-    "z9006.webp",
-    im.matrix.brightness(-0.3))
-
-image z9006-dark1 = im.MatrixColor(
-    "z9006.webp",
-    im.matrix.brightness(-0.15))
-
-
-
-
-
-image bg 0601-dark2 = im.MatrixColor(
-    "bg 0601.webp",
-    im.matrix.brightness(-0.3))
-
-image bg 0601-dark1 = im.MatrixColor(
-    "bg 0601.webp",
-    im.matrix.brightness(-0.15))
-
-image z9018-dark2 = im.MatrixColor(
-    "z9018.webp",
-    im.matrix.brightness(-0.3))
-
-image z9018-dark1 = im.MatrixColor(
-    "z9018.webp",
-    im.matrix.brightness(-0.15))
-
-
-image z9019-dark1 = im.MatrixColor(
-    "z9019.webp",
-    im.matrix.brightness(-0.15))
-
-image z9020-dark1 = im.MatrixColor(
-    "z9020.webp",
-    im.matrix.brightness(-0.15))
-
-image z9021-dark1 = im.MatrixColor(
-    "z9021.webp",
-    im.matrix.brightness(-0.15))
-
-
-
-
-
-
-
-
-
-
-
-
-label splashscreen:
-
-    
-    $ renpy.movie_cutscene("mov/0002.mpg")
-    $ renpy.movie_cutscene("mov/0001.mpg")
-
-
-    return
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-label start:
-
-    stop music
-    play sound "0602.mp3"
-
-    pause(5)
-
     "汽車は、無人のてんまさわ駅を過ぎた。\n終点のとうかんもりは、もうすぐだ。"
-
-    stop sound fadeout 1
-
-    play music "t07.mp3" fadein 1.0
 
     "腕をくんで天井へ向け、\n硬くなった体をほぐす。"
 
     "やがて、いつものように\nべつだん車内放送もないまま、\n列車はひっそりとホームにすべりこんだ。"
-
-    scene bg 0655 with Dissolve(.5)
 
     "降客が、まばらに改札口へ向かう。"
 
@@ -273,9 +24,6 @@ label start:
 
     "ただ鉄路だけが、赤錆を浮かせ、\n山あいの鉱山跡へと消えていた。"
 
-    show j 1902
-    with Dissolve(1)
-
     j "兄さん。"
 
     "景観へ向けられていた意識が\n引き戻された。"
@@ -290,20 +38,13 @@ label start:
 
     "小首をかしげた少女は、\n僕の横に立ち、\n視線の先を追う。"
 
-    hide j
-    with Dissolve(.5)
-
     j "……あのホームも、線路も、\nほんとはもう、要らないんだよね。"
 
     i "…………"
 
-    pause(0.5)
-
     j "でもなんだか、こうして\nずっと待ち続けていると……"
 
     j "向こうから、昔の列車が、\nガタゴト、やってくるかも。"
-
-    pause(0.5)
 
     "過去からの列車。"
 
@@ -311,24 +52,15 @@ label start:
 
     i "迎えに？"
 
-    show j 1901
-    with Dissolve(1)
-
     j "あ、うん。\nきっと、そろそろかなって。"
 
     i "……めずらしい。"
-
-    show j 1904
-    with Dissolve(.5)
 
     j "あ、ひどーい。"
 
     j "兄さん、\n傘持ってないでしょう。"
 
     "素直にうなずく。"
-
-    show j 1901
-    with Dissolve(.5)
 
     j "ホラやっぱり。\nきっとね、そうだと思ったの。"
 
@@ -350,15 +82,9 @@ label start:
 
     "樹里の学校の友人だったろうか。"
 
-    hide j
-    with Dissolve(.5)
-
     "でも、家に誰かを\n連れてきたことなんて\n一度もない。"
 
     "腕を引きずられながら改札をくぐると\nそこには、よく見知った姿があった。"
-
-    show r 4603
-    with Dissolve(1)
 
     r "あの……ど、ども……"
 
@@ -381,10 +107,6 @@ label start:
     r "え？　ないよ。\nいきなり出てきたし。"
 
     "樹里は\nとまどう相手の手元を\nぶしつけに観察する。"
-    
-    show r 4705
-    show j 1901
-    with Dissolve(.5)
 
     j "そっちのが大きい。\nね、交換しよ。"
 
@@ -400,26 +122,13 @@ label start:
 
     i "可愛い妹は、\nそんなこと自分で言わないだろ。"
 
-    show j 1904
-    with Dissolve(.5)
-
     i "まったく。\nごめんな古澤。"
-
-    show r 4702
-    with Dissolve(.5)
 
     r "い、いえ、\nぜんぜん、別に。"
 
-    show j 1901
-    with Dissolve(.5)
-
     j "もう、はやく帰ろ。\nあ、コンビニ寄らしてね。"
-    
-    i "どっちなんだよ。"
 
-    hide r
-    hide j
-    with Dissolve(.5)
+    i "どっちなんだよ。"
 
     "傘をひろげた僕の脇に、\nちゃっかり寄り添ってくる。"
 
@@ -428,28 +137,6 @@ label start:
     "春以来に顔をあわせる樹里は\n変わらない。"
 
     "いきいきと輝いて\n僕を、まっすぐに見る。"
-
-    pause(1)
-    scene bg 0999 with fade
-
-
-
-
-
-
-
-
-
-
-
-    pause(1)
-    play music "t01.mp3" fadein 1.0
-    scene bg 0702 with fade
-    show z1046
-    show z9001
-    show z9002
-    show z9003
-    show z1024
 
     "物心ついたころから、\n芳野さんは僕らの輪のなかにいた。"
 
@@ -479,9 +166,6 @@ label start:
 
     "芳野さんにうながされ\n潤は、いずまいを正した。"
 
-    show r 4602
-    with Dissolve(.5)
-
     r "潤です。\nよろしくお願いします。"
 
     "まだ緊張が残っているけれど、\nしっかりとした挨拶。"
@@ -492,15 +176,7 @@ label start:
 
     "芳野さんが微笑みを浮かべながら\n樹里に言った。"
 
-    hide r
-    with Dissolve(.5)
-    show y 3254
-    with Dissolve(.5)
-
     y "樹里は、覚えていたのね。\n潤のこと。"
-
-    show j 1901
-    with Dissolve(.5)
 
     j "うん。もちろん。"
 
@@ -518,43 +194,23 @@ label start:
 
     y "そうね、\n十年以上も前のことだから、\n憶えていなくても無理はないわ。"
 
-    hide j
-    hide y
-    with Dissolve(.5)
-
     y "フフッ"
 
     "芳野さんが声を弾ませると、\n潤はぎくりと顔をこわばらせた。"
-
-    show y 3101
-    with Dissolve(.5)
 
     y "潤ったら、ノラ猫を怖がって\n泣き出してしまって……"
 
     y "五樹お兄ちゃんに\n助けてもらったのよね？"
 
-    show r 4706
-    with Dissolve(.5)
-
     r "マ……ッ"
 
     i "へえ。"
 
-    show r 4702
-    with Dissolve(.5)    
-
     r "マ、ママッ！\nそういう事……っ"
-
-    show y 3107
-    with Dissolve(.5)    
 
     y "はいはい。"
 
     j "……へえー。"
-
-    hide r
-    hide y
-    with Dissolve(0.5)
 
     "一呼吸おいて、\n父さんは潤に頭をさげた。"
 
@@ -563,9 +219,6 @@ label start:
     f "きみが再婚に\n納得してくれたことは、\n恩にきるよ。"
 
     f "こうして一緒に\nとうかんもりに\n来てくれたことも。"
-
-    show r 4605
-    with Dissolve(.5)    
 
     r "……（こくり）"
 
@@ -579,25 +232,15 @@ label start:
 
     r "は、はい。"
 
-    show r 4602
-    with Dissolve(.5)    
-
     r "こちらこそ、\nおねがい、します。"
 
     f "五樹と樹里も。"
 
     "うなずいた僕のとなりで、\n樹里はオーバーにうけあった。"
 
-    hide r
-    show j 1901
-    with Dissolve(.5) 
-
     j "大丈夫、父さん。\n親友になれるわ、私たち。"
 
     j "夏休みが終わったら、\n一緒に登校できるよね？"
-
-    show r 4703
-    with Dissolve(.5) 
 
     r "そ、そう思うけど。\n……ママ？"
 
@@ -607,9 +250,6 @@ label start:
 
     i "進学を考えてるんだったら、\n普通は通学時間には\n勉強してるだろう。"
 
-    show j 1903
-    with Dissolve(.5) 
-
     j "兄さん、\n勉強は学校でするのよ。"
 
     i "……あ、そう。"
@@ -618,20 +258,11 @@ label start:
 
     "まったく、うらやましい。"
 
-    show j 1901
-    with Dissolve(.5) 
-
     j "でも楽しみだな。\nワクワクする。"
 
     "ふっと、樹里は\n新しい家族二人を見比べた。"
 
-    show j 1903
-    with Dissolve(.5) 
-
     j "……ママ……かあ。"
-
-    show j 1901
-    with Dissolve(.5) 
 
     j "私も芳野ママって\n呼んでいい？　よね？"
 
@@ -639,56 +270,19 @@ label start:
 
     y "ええ。嬉しいわ。"
 
-    show r 4708
-    with Dissolve(.5) 
-
     r "…………"
 
-    hide j
-    hide r
-    with Dissolve(0.5)
-    
     "やわらかな芳野さんの声が\nつらかった。"
-
-    show y 3351
-    with Dissolve(0.5)
 
     y "五樹は、灯籠流しまではいられるの？"
 
     i "……っと、週末だっけ。"
 
-    show j 1901
-    with Dissolve(0.5)
-
     j "そうよ、兄さん。\nまたすぐに帰ったりしたら、\nいやよ？"
-
-    pause(2)
-    stop music fadeout 1
-    scene bg 0999 with fade
-
-
-
-
-
-
-
-
-
-
-    scene bg 0654
-    with fade
-    pause(4)
-    
-    scene bg 0999
-    with fade
 
     "鉛色の雲がのしかかる。"
 
-    play sound "0064.mp3"
-
     "───晩秋の突然の雨。"
-
-    play sound "0605.mp3" fadeout 1
 
     "２軒目の喫茶店も、また、\n休日というのに、混みあっていた。"
 
@@ -704,10 +298,6 @@ label start:
 
     "男性は無言でうなずいて、\n書類に目を戻した。\n煙草には、もう手を伸ばさない。"
 
-    scene bg 0999
-    with fade
-    play sound "0604.mp3" fadeout 1
-
     "カフェラテが\n半分になる。"
 
     "かるく出窓にもたれ、\n外へ視線を向けた。"
@@ -715,8 +305,6 @@ label start:
     "濡れた路面を、ビー玉に似た\nヘッドライトの光がはねていく。"
 
     "それから、ちびちびと\n何度かカップに口をつけたころ\n相席の男性の視線に気づいた。"
-
-    play music "t03.mp3" fadein 1
 
     "吸い寄せられるように\n顔が向き合うと、男性は一礼して、\n意外なことを言った。"
 
@@ -848,9 +436,6 @@ label start:
 
     "簸川と話す機会があっても、\nこのことは内緒にしてください、と\n青磁さんは頭を下げ、店を離れた。"
 
-    scene bg 0999
-    with fade
-
     q "……ふぅ……"
 
     "なかなか雨は\n降りやもうとしない。"
@@ -867,34 +452,9 @@ label start:
 
     "それが、\n寂しさだったと気づくのは、\nそれから１年が経ったころだった。"
 
-    pause(2)
-
-    stop sound fadeout 1
-    stop music fadeout 1
-
-
-
-
-
-
-
-
-
-
-
-    
-    scene bg 0755
-    with fade
-
-    scene bg 0507
-    with Fade(4.0, 1.0, 0.5)
-    
     "帰省した翌日。"
 
     "とうかんもりを案内するから、\nと諭して、しぶりがちな潤を\n外へと連れ出した。"
-
-    show z9015
-    with Dissolve(0.5)
 
     j "あたし、\nうちにいようか？"
 
@@ -903,17 +463,6 @@ label start:
     j "うん、いいよ。\nお手伝いしてるからさ。"
 
     j "いってらっしゃい。\n兄さん、潤ちゃん。"
-
-
-
-
-
-    scene bg 0508
-    with Fade(1.0, 1.0, 1.0)
-    show z9016
-    show z9017
-    play music "t09.mp3" fadein 1
-    play remusic "0603.mp3" fadein 1
 
     "草いきれの中をつづく\n廃線跡。"
 
@@ -933,9 +482,6 @@ label start:
 
     "バランスをくずして、\nこっちの肩に手をつく。"
 
-    show r 4608
-    with Dissolve(0.5)
-
     r "そ……それじゃあ私は\nお、お、お兄さん、ですか？"
 
     "うらめしそうに\nこぼす。"
@@ -952,22 +498,13 @@ label start:
 
     r "…………"
 
-    hide r
-    with Dissolve(0.5)
-
     "厚い雲を透かして、\n夏の熱気が肌を射す。"
 
     "潤はまだ、\nこの気候には慣れてないようだ。"
 
     "ときおりシャツをつまんでは\n風をおくっている。"
 
-    show i 2108
-    with Dissolve(0.5)
-
     i "きのうは眠れた。"
-
-    show r 4703
-    with Dissolve(0.5)
 
     r "いちおうは……"
 
@@ -991,17 +528,11 @@ label start:
 
     i "いちばん緊張して\n驚いてたのは、きみだったかな。"
 
-    show r 4705
-    with Dissolve(0.5)
-
     r "先輩も\n知らなかったんですか？"
 
     r "あたしが、先輩と、その、\n戸籍上の兄妹になる……ってこと。"
 
     i "うん。\n昨日まで、ぜんぜん。"
-
-    show r 4708
-    with Dissolve(0.5)
 
     i "芳野さんの連れ子を紹介するって\n聞いていただけだ。"
 
@@ -1014,10 +545,6 @@ label start:
     r "マンガじゃないっすかー\nそんなの。"
 
     i "そうだね。"
-
-    hide r
-    hide i
-    with Dissolve(0.5)
 
     "憮然とする潤に、\n僕は肩をすくめた。"
 
@@ -1033,22 +560,13 @@ label start:
 
     i "ムカついてるんじゃないか。\n年下なのに。"
 
-    show r 4708
-    with Dissolve(0.5)
-
     r "……あの子を置いて、\nあたしを連れ出したのって\nそれですか？"
 
     "僕をじろりとにらむと、\n潤はふうと息をついて、\n肩から力を抜いた。"
 
-    show r 4705
-    with Dissolve(0.5)    
-
     r "別に愚痴ったりなんて\n無いですよ。"
 
     r "そんなのわかってて、\nママについてきたんだし。"
-
-    show r 4708
-    with Dissolve(0.5)
 
     r "まあ……あんな……\n超アイドル系だなんて\n思わなかったけど……"
 
@@ -1060,18 +578,11 @@ label start:
 
     i "ムリはしないでさ。"
 
-    show r 4704
-    with Dissolve(0.5)  
-
     r "ムリしてませんよ！"
 
     r "せいせいしてるんだから……"
 
     "つんと、空を向く潤は\n晴れやかな顔をしていた。"
-
-    stop remusic fadeout 1.0
-    scene bg 0510
-    with fade
 
     "駅前を抜けて、\nつらつらと続く坂道をのぼっていく。"
 
@@ -1084,11 +595,6 @@ label start:
     "とうかんもり。"
 
     "───日々刻々と\nうつりゆく季節を呼吸しながら、\nなにも変わらない場所。"
-
-    scene bg 0523
-    show z9031
-    show z9032
-    with fade    
 
     r "そういえば。"
 
@@ -1128,9 +634,6 @@ label start:
 
     r "ずるい。"
 
-    show r 4604
-    with Dissolve(0.5)
-
     "唇を噛んで\nうつむく。"
 
     i "……え？"
@@ -1141,15 +644,7 @@ label start:
 
     r "ここにあたしがいるの、\n当たり前みたいに。"
 
-    hide r
-    with Dissolve(0.5)
-
     "そうして潤は、\n枯尾沼を見おろす\n懸崖を向いた。"
-
-    scene bg 0521
-    show z9027
-    show z9028
-    with Dissolve(1.0)
 
     r "ずるいよ……"
 
@@ -1173,9 +668,6 @@ label start:
 
     "よりによって\nこんな意地の悪い\n偶然が待っていたとは。"
 
-    show r 4607
-    with Dissolve(0.5)
-
     r "う……\nごめん……なさい……"
 
     "反省のはやい\n潤が首をたれる。"
@@ -1186,9 +678,6 @@ label start:
 
     i "べつに気にしてや……"
 
-    show r 4601
-    with Dissolve(0.5)
-
     r "し、知ってますって、\nそんなの。"
 
     "潤は自嘲の笑いを浮かべる。"
@@ -1196,9 +685,6 @@ label start:
     r "先輩、いい人だから。\n知ってます。"
 
     "背伸びをしながら\n潤は顔をそむけた。"
-
-    hide r
-    with Dissolve(0.5)    
 
     "胸をそらし\n伸ばした腕で\nガードレールをつかむ。"
 
@@ -1209,9 +695,6 @@ label start:
     r "ちょっと\nいいシーンかもって……\nヘヘ……"
 
     i "…………"
-
-    show r 4801
-    with Dissolve(0.5)
 
     r "今度のだって、\n新しい家族とか、兄妹とか、\nそんなんじゃなくてですね……"
 
@@ -1225,13 +708,7 @@ label start:
 
     "潤らしくない、\n卑下した口ぶりに\nしずかに言い添える。"
 
-    show i 2557
-    with Dissolve(0.5)
-
     i "……きみの母さんは、\nそんな卑屈には\n思ってないんじゃないかな。"
-
-    show r 4803
-    with Dissolve(0.5)    
 
     "潤はにがい表情で\n町を見おろしたまま\n聞いていた。"
 
@@ -1257,18 +734,11 @@ label start:
 
     i "放って置かれたって\n思っているかい。"
 
-    show r 4802
-    with Dissolve(0.5)
-
     r "…………"
 
     "潤は黙ったまま\n首を振った。"
 
     "脇の柵に\n自分も寄りかかる。"
-
-    hide r
-    hide i
-    with Dissolve(0.5)
 
     i "古澤。"
 
@@ -1278,16 +748,10 @@ label start:
 
     i "きみさえよけりゃ\nだけどさ。"
 
-    show r 4608
-    with Dissolve(0.5)   
-
     r "う……うい？"
 
     i "もし、本当に\nこの町が嫌だったら\n東京へ来るかい？"
 
-    show r 4606
-    with Dissolve(0.5)   
-    
     r "え……"
 
     "潤は目を白黒させる。"
@@ -1306,9 +770,6 @@ label start:
 
     i "もちろん一緒に住むよ。"
 
-    show r 4602
-    with Dissolve(0.5)   
-    
     r "そ、それっ、同棲じゃないですか。"
 
     i "でも兄妹だろ。"
@@ -1317,31 +778,19 @@ label start:
 
     r "ちょ、ちょっと待って。"
 
-    hide r
-    with Dissolve(0.5)
-
     "潤は両の手のひらを\nぐっと差し出した。"
 
     r "だめ、\nだめですよ。"
 
-    show r 4605
-    with Dissolve(0.5)
-
     r "……だって先輩は、\n好きな人が、いるんでしょう！？"
 
     "おもわず面くらった僕をみて\n潤は確信したらしい。"
-
-    show r 4607
-    with Dissolve(0.5)
 
     r "……お店に来てた先輩の友だちが、\n話してるの、聞いちゃったんです。"
 
     r "相手のひとは知りませんよ。\n見たこともないです。"
 
     r "でも、だったら……\n先輩の厄介になんか\nなれっこありません。"
-
-    show r 4605
-    with Dissolve(0.5)
 
     r "でしょ？"
 
@@ -1353,9 +802,6 @@ label start:
 
     i "ずいぶん、はっきりと。"
 
-    show r 4603
-    with Dissolve(0.5)
-
     r "……へっ"
 
     "潤は、なんともいえぬ\n微妙な表情で固まった。"
@@ -1366,18 +812,11 @@ label start:
 
     i "マジ。"
 
-    show r 4606
-    with Dissolve(0.5)
-
     r "…………ひ、ひどっ……"
 
     r "ほんとに\n人間なんですか？　その人？"
 
     "まくしたてる潤に\n照れ隠しするように告げた。"
-
-    hide r
-    show i 2108
-    with Dissolve(0.5)
 
     i "こっちのことは\n気にするなよ。"
 
@@ -1387,27 +826,14 @@ label start:
 
     i "しばらく\n考えてみてくれ。"
 
-    hide i
-    show r 4802
-    with Dissolve(0.5)  
-
     r "…………はい。"
 
     "今は、そう返事をするのが\nやっとらしい。"
 
-    play sound "0614.mp3"
     "ふう、と息をつくと\n急に崖の放水口の音が\n戻ってきた。"
-
-    scene bg 0523
-    show z9033
-    with Dissolve(1.0) 
-
-    show i 2401
-    with Dissolve(0.5) 
 
     i "喉かわいたろ？"
 
-    stop music fadeout 1.0
     i "買い物ついでに\n自販機に寄ってこようか。"
 
     r "はい。"
@@ -1424,9 +850,6 @@ label start:
 
     i "オッケー。\nちょっと待ってて。"
 
-    hide i
-    with Dissolve(0.5)
-
     r "…………"
 
     r "………………ふぅ……"
@@ -1435,135 +858,25 @@ label start:
 
     r "…………"
 
-    stop sound fadeout 1.0
-
     r "……一緒に？"
 
     r "………………"
 
-    play sound "0606.mp3" fadeout 1.0
     r "………………？"
-
-    play sound "0608.mp3" fadeout 1.0
 
     r "…………"
 
-    play music "t02.mp3" fadeout 1.0
     r "………樹里………？"
 
-    play sound "0607.mp3" fadeout 1.0
     r "ついて……来たの？"
-
-    show z9035
-    with Dissolve(0.5)
 
     r "…………樹……"
 
-    hide z9035
-    with Dissolve(0.5)
-
     r "…………だれ……"
-
-
-
-
-
-
-
-
-
-    hide z9033
-    with Dissolve(1.0)
-    pause 1.0
-    show z9034
-    with Dissolve(1)
-    pause 1.0
-    hide z9034
-    with Dissolve(1)
-    scene bg 0524
-    with Dissolve(1.0)
-    pause 2.0
-    play sound "0610.mp3" fadeout 1.0
-    scene bg 0527
-    with Dissolve(1.0)
-    show z9041
-    with Dissolve(1.0)
-    pause 1.5
-    hide z9041
-    show z9040
-    with Dissolve(1.0)
-    pause 1.5
-    hide z9040
-    show z9042
-    with Dissolve(1.0)
-    pause 1.5
-    hide z9042
-    with Dissolve(1.0)
-    pause 1
-    scene bg 0515
-    with Dissolve(1.0)
-    pause 2.0
-    scene bg 0522
-    with Dissolve(1.0)
-    show z9030
-    with Dissolve(1.0)
-    pause 1
-    show z9029
-    with Dissolve(1)
-    pause 1
-    hide z9030
-    with Dissolve(1)
-    pause 1
-    hide z9029
-    with Dissolve(1)
-    pause 1
-    scene bg 0511
-    with Dissolve(1.0)
-    pause 2
-    scene bg 0525
-    with Dissolve(1.0)
-    show z9036
-    with Dissolve(1.0)
-    pause 1
-    hide z9036
-    with Dissolve(1.0)
-    stop sound fadeout 1
-    scene bg 0526
-    with Dissolve(1.0)
-    pause 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    show r 4903
-    with Dissolve(1.0)
 
     r "樹里だろ……"
 
     r "悪ふざけ、\nやめろって。"
-
-    hide r
-    with Dissolve(0.5)
 
     r "…………樹里っ……"
 
@@ -1571,70 +884,27 @@ label start:
 
     r "……先輩……"
 
-    show z9039
-    with Dissolve(0.5)
-
     r "…………先輩……っ……！"
-
-    stop music fadeout 1.0
-    play sound "0612.mp3" fadeout 1.0
 
     r "…………！？"
 
-    show n 5201
-    with Dissolve(0.5)
-
     n "どうしました？\nお探しものですか？"
-
-    hide z9039
-    show z9037
-    show z9038
-    hide n
-    show r 4602 at realleft
-    with Dissolve(1.0)
 
     r "あ、いえ。"
 
     n "ん～？\n…………あっ！"
 
-    hide r
-    hide z9037
-    hide z9038
-    show n 5301
-    with Dissolve(0.5)
-
     n "ちょっと待って\nピンと来た、\nいまサーチするから。"
 
     r "……え？"
 
-    show n 5307
-    with Dissolve(0.5)
-
     n "ええ～と～～"
-
-    play music "t10.mp3" fadein 1.0
-
-    show n 5301
-    with Dissolve(0.5)
 
     n "そだ。もしかして、\n芳野さんの娘さん？\n潤ちゃんさん？"
 
-    show z9037
-    show z9038
-
-    hide n
-    show r 4708
-    with Dissolve(0.5)   
-
     r "ちゃんさん？"
 
-    show r 4705
-    with Dissolve(0.5)   
-
     r "あ、はい。\nそうです。"
-
-    show n 5101 at littleright
-    with Dissolve(0.5)
 
     n "やっぱり！"
 
@@ -1642,46 +912,19 @@ label start:
 
     r "簸川……"
 
-    show n 5104
-    with Dissolve(0.5)    
-
     n "ええ。\n役場につとめてるの。\nお話は伺ってるわ。"
 
     n "健昭さんは、私の叔父よ。"
-
-    show r 4701
-    with Dissolve(0.5)      
 
     r "ええと……じゃあ、\n従姉妹になるんですね。"
 
     n "うん。そゆこと。\nよろしくね？"
 
-    show n 5101
-    with Dissolve(0.5)
-
     n "……ところで、\n本当に迷子だったの？"
-
-    show r 4702
-    with Dissolve(0.5)   
 
     r "……恥ずかしながら……"
 
     n "あらま。"
-
-    stop music fadeout 1.0
-    pause 1
-    play sound "0013.mp3" fadeout 1
-    scene bg 0543
-    with fade
-    pause 5
-
-
-
-
-
-
-    scene bg 0702 with fade
-    play music "t05.mp3" fadein 1
 
     "芳野さん、潤、樹里。\n女性３人が厨房に立つ光景は\nなかなか華やかだった。"
 
@@ -1699,15 +942,11 @@ label start:
 
     "居間から見ると、なんだか\n反復横飛びのようだ。"
 
-    scene bg 0707 with fade
-
     "にぎやかなまま夕食を終え、\nしばらくして───"
 
     "すでに先客がいた風呂場から、\n吹き抜けへ、とってかえす。"
 
     "と、頭の上の踊り場から\n声がかかった。"
-    
-    show z9009 with dissolve
 
     y "健昭さん、\n本家へ向かわれたわ。"
 
@@ -1719,15 +958,9 @@ label start:
 
     "芳野さんは、\n手すりをつたいながら、\n危なげなく階下へ降りた。"
 
-    hide z9009
-    show y 3104
-    with Dissolve(0.5)
-
     y "明後日には、やはり\n帰ってしまうの？"
 
     i "……ごめん。"
-
-    show y 3101 with Dissolve(0.5)
 
     y "いいのよ。\n忙しいのでしょう。"
 
@@ -1737,8 +970,6 @@ label start:
 
     "芳野さんは首を振った。"
 
-    show y 3109 with Dissolve(0.5)
-
     y "この場所でいいわ。"
 
     y "風がここちよいもの。"
@@ -1746,11 +977,6 @@ label start:
     i "そう。"
 
     "階段にかけた芳野さんの横に、\n僕もおずおずと腰をすえた。"
-
-    hide y
-    show z9010
-    show z9011
-    with Dissolve(0.5)
 
     y "いい機会だから、\nはなしておきたいの。"
 
@@ -1804,10 +1030,6 @@ label start:
 
     i "いや……\nすこし驚いたけど。\n平気だよ。"
 
-    pause(1)
-    show y 3108 at realleft
-    with Dissolve(1)
-
     y "……ありがとう。"
 
     y "大人になったのね、五樹。"
@@ -1824,14 +1046,10 @@ label start:
 
     y "それまで、\nなんとなく生きてきた私が、\nほんのすこし、変わったの。"
 
-    show y 3109 at realleft
-
     y "それから健昭さんとは\nながいあいだ、友だちだったわ。"
 
     y "…………"
 
-    hide y with Dissolve(0.5)
-    
     y "桐生氏は、きっと今でも、\n私を捨てたとは\n思っていないわ。"
 
     y "才気にあふれて、\nやる事はなんでも\nスケールが大きくて。"
@@ -1845,9 +1063,6 @@ label start:
     i "……そうかな。"
 
     i "撮影の仕事ばかりで\nほとんど家にはいなかった。"
-
-    show y 3108 at realleft
-    with Dissolve(1)    
 
     y "……健昭さんを恨んでる？　五樹。"
 
@@ -1871,13 +1086,7 @@ label start:
 
     i "……芳野さんは\n僕らの面倒を押しつけられて\n迷惑じゃなかったの？"
 
-    show y 3109 at realleft
-    with Dissolve(0.5)    
-
     y "苦労した、というなら\nもちろん大変だったけれど。"
-
-    show y 3101 at realleft
-    with Dissolve(0.5)    
 
     y "それが生き甲斐だったのだもの。\n健昭さんを助けながら、\nあなたたちの成長を見守ることが。"
 
@@ -1897,16 +1106,7 @@ label start:
 
     i "…………"
 
-    hide y
-    with Dissolve(1)    
-
     "とつぜん\n廊下が騒がしくなる。"
-
-    show z9012
-    with Dissolve(0.75)
-
-    show z9013
-    with Dissolve(0.75)  
 
     "吹き抜けに、\n風呂あがりの\n潤と樹里の二人があらわれた。"
 
@@ -1935,14 +1135,8 @@ label start:
     j "恥ずかしいの？　潤ちゃん。"
 
     "くすくすと樹里が笑う。"
-    
-    hide z9010
-    show z9014
-    with Dissolve(0.5)
 
     "芳野さんがすっと立った。"
-
-    play music "t07.mp3" fadein 1
 
     "和やかな空気に似合わぬ\nかたい顔をしている。"
 
@@ -1952,17 +1146,9 @@ label start:
 
     r "なに言ってるのママ！\n樹里が、先に……"
 
-    hide z9014
-    show y 3207 at littleleft
-    with Dissolve(0.5)
-
     y "いいわね、潤。"
 
     "いきどおる潤をおさえて\n芳野さんがたしなめる"
-
-    hide y
-    show z9014
-    with Dissolve(0.5)
 
     r "…………は……い……"
 
@@ -1971,45 +1157,6 @@ label start:
     j "はーい。"
 
     j "芳野ママ。"
-
-    show i 2504
-    with dissolve
-    pause(1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    stop music fadeout 1
-    scene bg 0711 with fade
-    play sound "0611.mp3"
-    scene bg 0999 with dissolve
 
     "年の暮れのせまった駅を\n誰もが足早に行き交う。"
 
@@ -2047,14 +1194,9 @@ label start:
 
     "また、\n涙と嗚咽があふれてきた。"
 
-    pause(2)
-    play sound "0615.mp3" fadeout 1
-
     "青磁さんのマンションで\nシャワーを借り、\n凍てついた体を溶かした。"
 
     "椅子にかけると、\nシンプルなフローリングの部屋からは、\n煙草の匂いがした。"
-
-    play music "t03.mp3" fadein 1
 
     "それほど\n嫌な匂いではなかった。"
 
@@ -2148,51 +1290,15 @@ label start:
 
     "やがて、またじわりと滲みだした涙を、\nぬぐう気力もないまま、\n私は眠りの中へと沈んでいった。"
 
-    stop music fadeout 2
-    pause(3)
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    scene bg 0512 with fade
-    pause(2)
-    scene bg 0513 with fade
-        
     "今日もまた夏日だった。"
 
     "薄曇りの空は、その底に、\n澄み切った青空を隠している。"
 
     "グリル『ぎとぎと』に顔を出した帰り、\n見覚えのある自転車が、\n坂を駆けおりてきた。"
 
-    play sound "0613.mp3"
-
     "そのまま、すれちがうかに見えた自転車は、\n短いブレーキ音を鳴らして止まった。"
 
     i "夏生───"
-
-    play sound "0617.mp3"
-    show n 5251 with dissolve
 
     "振り返れば\n路肩に自転車を寄せながら\nひとつ上の従姉妹が、顔をあげる。"
 
@@ -2204,11 +1310,7 @@ label start:
 
     "あまり親密とはいえない距離で\n僕らは向き合った。"
 
-    hide n with dissolve
-
     i "潤を送ってくれて\nありがとう。"
-
-    show n 5104 at realleft with dissolve
 
     n "なあに。\nふるさと振興課職員としては\n当然のつとめです。"
 
@@ -2216,9 +1318,6 @@ label start:
 
     n "……いい子そうじゃない？"
 
-    show z9025 at littleright
-    show z9026 at zi with dissolve
-        
     "僕がうなずくと、\n夏生はサドルに後ろ手をついた。"
 
     n "大事な受験の夏に、こんな僻地に\nドロップアウトだなんて───"
@@ -2226,8 +1325,6 @@ label start:
     n "どんな問題児なんだろうって、\n役場じゃ、みんなヒヤヒヤしてた。"
 
     i "なんだよそれ。"
-
-    hide n with dissolve
 
     "顔をほころばせながら\n夏生は僕に一歩近寄った。"
 
@@ -2249,8 +1346,6 @@ label start:
 
     n "あっ、やべ。"
 
-    show i 2108 with dissolve
-
     i "そろそろ仕事に\n戻ったほうがいいね。"
 
     n "そうみたいね。"
@@ -2261,11 +1356,7 @@ label start:
 
     n "へーい。"
 
-    hide i with dissolve
-
     "歩きかけたところで\n呼び止められた。"
-
-    show n 5108 at realleft with dissolve
 
     n "い……五樹……"
 
@@ -2274,8 +1365,6 @@ label start:
     n "…………"
 
     i "うん？"
-
-    pause(1)
 
     n "……い、いつまでいるの？\nこっちには。"
 
@@ -2295,8 +1384,6 @@ label start:
 
     "夏生は、苦しそうに\n言葉につまっていた。"
 
-    show n 5104 at realleft with dissolve
-
     n "み、見送り行こっか？"
 
     i "……見送り？"
@@ -2309,40 +1396,9 @@ label start:
 
     i "きょう、会えてよかった。"
 
-    show n 5108 at realleft with dissolve
-
     n "うん……"
 
     n "……大丈夫だよね。　　　　　　　　　\n五樹だものね。"
-
-    scene bg 0999 with fade
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    play sound ["0052.mp3", "0055.mp3"] fadein 0.5 fadeout 0.5
-
-    pause(9.5)
-    play sound "0603.mp3"
-    scene bg 0503 with fade
-    show z9022
-    show z9023 
 
     j "中に入ってみないの？"
 
@@ -2353,27 +1409,16 @@ label start:
     j "しないよ。\nそんな子供みたいなこと。"
 
     r "…………うー……"
-        
-    show j 1952 with dissolve
 
     j "うたぐりぶかいなあ、潤ちゃん。"
 
-    show r 4608 at littleright with dissolve
-
     r "……あのなー。"
-
-    show r 4604 at littleright with Dissolve(0.5)
 
     r "いきなり抱きつかれて、\n湯船に潜ったりされたら、\nトラウマにもなるっての。"
 
     "渋い顔の潤をよそに、\n樹里は屈託なく笑った。"
 
-    show j 1951 with Dissolve(0.5)
-
     j "ごめんねー。\nでも、うちのお風呂広いでしょ？"
-        
-    hide j with dissolve
-    hide r with dissolve
 
     r "ンあ？　ああ───"
 
@@ -2383,25 +1428,7 @@ label start:
 
     r "……え……っ……"
 
-    hide z9023 with dissolve
-    play music "t06.mp3" fadein 1
-
     "面くらう潤を置いて\n樹里はすっと前へ出て、\n暗闇にとけ込んでいく。"
-
-    scene bg 0504-dark2
-    show z9004-dark2 with fade
-    pause(1)
-
-    show z9006-dark2 with dissolve
-    pause(1)
-
-    scene bg 0504-dark1
-    show z9006-dark1 with dissolve
-    pause(1)
-
-    scene bg 0504
-    show z9007
-    show z9006 with dissolve
 
     r "…………"
 
@@ -2413,9 +1440,7 @@ label start:
 
     r "ここ……まだ\n使ってるの？"
 
-    pause(1)
     "樹里は無言のまま、\nしばらくその場に立っていた。"
-    pause(2)
 
     j "……そうね、一応。\nめったに開けないけど。"
 
@@ -2433,8 +1458,6 @@ label start:
 
     r "……そろそろ行こう。"
 
-    pause(1)
-        
     j "…………"
 
     r "……樹里？\n閉めよう。"
@@ -2443,32 +1466,15 @@ label start:
 
     j "もうすこし、いるわ。\n潤ちゃん先に行ってて。"
 
-    pause(0.5)
-
     r "……いいけど。"
-
-    hide z9007 with dissolve
-    pause(2)
 
     j "…………"
 
-    hide z9006 with dissolve
-
-    show z9008 with Dissolve(2)
-
-    show z9005 with Dissolve(2)
-
-    pause(2)
-        
     j "………………"
-        
+
     j "泣いては、だめ。"
 
-    pause(1)
-
     j "─────母さん。"
-
-    show j 1905 at littleright with dissolve
 
     j "母さんはもう\nここには、いないの。"
 
@@ -2476,45 +1482,11 @@ label start:
 
     j "あたしを　　　　　　　　　　　　　\nいらつかせないで。"
 
-    hide j with dissolve
-
     j "……消えて……"
 
-    pause(2)
-        
     j "…………消えて。"
 
-    pause(2)
-    hide z9005 with dissolve
-    pause(1.5)
-    hide z9008 with dissolve
-    pause(1.5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    scene bg 0601-dark2 
-    show z9018-dark2
-    with Fade(1,3,1)
-
     "ふと目覚める。\n薄明までは、まだ遠い。"
-
-    scene bg 0601-dark1 
-    show z9018-dark1
-    show z9019-dark1
-    with Dissolve(2)
 
     "暗がりに、ぼんやりと\n白く細い背中が浮かびあがる。"
 
@@ -2527,11 +1499,6 @@ label start:
     "おぼろげな眠りの淵に浸かったまま、\n僕は、少女と視線を絡めあわせる。"
 
     "少女は吸い込まれるように、\nしのびやかに薄掛けにもぐり\n身体をあずけてきた。"
-
-    hide z9018-dark1
-    hide z9019-dark1
-    show z9020-dark1
-    with Dissolve(3)
 
     "猫のように丸まって\nしっとりと濡れた背を押しつける。"
 
@@ -2551,11 +1518,7 @@ label start:
 
     "僕の、たったひとつの\n居場所へ。"
 
-    pause(2)
-
     j "………おかえり……兄さん…………"
-
-    pause(1)
 
     "ふるえるつぶやきに\n長い苦悶を経た色が\nありありと浮かぶ。"
 
@@ -2564,8 +1527,6 @@ label start:
     "あたかも調律を欠いた楽器が、\nそれでも悲鳴を奏でることを\nやめないでいるような───"
 
     "そんな哀しい音色で、\nこの瞬間も叫び続けている。"
-
-    pause(1)
 
     j "……知ってる…………兄さん……？"
 
@@ -2581,8 +1542,6 @@ label start:
 
     "ふたりを出奔させた罪悪感からか、\n今では、むしろ丁寧に\n迎えられるようになった。"
 
-    pause(1)
-
     "ふたり……\n兄妹だったのかもしれない。\nもう誰にもわからないことだ。"
 
     j "だったら……"
@@ -2590,8 +1549,6 @@ label start:
     j "……だとしたら、あたしたち、\n普通とはちがうわ。"
 
     j "兄妹より近くて\n双子よりは遠い……\nなにかね。"
-
-    pause(1)
 
     "そのくちぶりには\nおのれを貶めつつも\n押し隠した喜びがあった。"
 
@@ -2624,8 +1581,6 @@ label start:
     j "いえ、\n兄さんはちがう。"
 
     j "兄さんは、ちがう。"
-    
-    pause(3)
 
     j "……どうしたらいいの。"
 
@@ -2695,38 +1650,11 @@ label start:
 
     i "…………"
 
-    scene bg 0999 with fade
-    stop music fadeout 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     "なかば肺炎になりかけていた伊勢きりこは、\nそのまま丸一日寝込んだ。"
 
     "翌々日、かなり無理をしながらも\n山鹿青磁のもとから帰宅する。"
 
     "送ろうとした青磁を断りながらも、\n伊勢きりこは、青磁との約束の念を押した。"
-
-    pause(1)
-
-    play sound "0616.mp3"
 
     "数日後、帰宅した青磁の耳に\nしばらく鳴り続けていたふうな\n呼び出し音が届いた。"
 
@@ -2745,8 +1673,6 @@ label start:
     "沈黙したままの受話器を下ろしかけた時、かすれた、小さな声が聞こえた。"
 
     "「セイ……」"
-
-    play music "t08.mp3" fadein 1
 
     g "…………五樹か？"
 
@@ -2830,20 +1756,6 @@ label start:
 
     g "……………"
 
-    stop music fadeout 1
-    play sound "0619.mp3"
-
-
-
-
-
-
-    pause(4)
-    stop sound fadeout 1
-    scene bg 0555
-    show z9043
-    show z9044 with dissolve
-
     r "樹里も誘ったんだけど……\n眠い、とか言って、\nちっとも起きなくって。"
 
     r "ほんともう……\nあいつは……"
@@ -2884,39 +1796,19 @@ label start:
 
     "潤と五樹の微笑みに、\n汽笛の音がかぶさってきた。"
 
-    scene bg 0999 with fade
-
-
-
-
-
-
-    play sound "0618.mp3"
-    pause(12)
-
-    scene bg 0555
-    show j 1901 with dissolve
-
     j "あーあ、行っちゃった？"
 
     r "樹里………"
 
     r "何してたんだよ。\nたったいま、発車したとこ\nだったのに。"
 
-    show j 1903 with Dissolve(0.5)
-
     j "あちゃー。"
-
-    show r 4704 with dissolve
 
     r "…………もう……"
 
     r "あんたは……マイペースっつーか、\n先が思いやられるっつーか……"
 
     r "しっかりしてくれなきゃ、\n先輩だって、安心して向こうで\nやってけないじゃないか。"
-
-    hide j with dissolve
-    hide r with dissolve
 
     j "…………"
 
@@ -2925,8 +1817,6 @@ label start:
     r "……ごめん。\nきつく言い過ぎた。"
 
     r "べつに、\n姉貴ヅラするつもりじゃ……"
-
-    show j 1909 with dissolve
 
     j "……ううん。へいき。"
 
@@ -2938,33 +1828,21 @@ label start:
 
     j "さては　　　　　　　　　　　\n目にホコリが入ったんでしょ？"
 
-    hide j with dissolve
-    show r 4608 with Dissolve(0.5)
-
     r "…………こい…つは～…………"
 
-    hide r with dissolve
-    show j 1901 with Dissolve(0.5)
-        
     j "そーゆーわけだから\nかき氷、食べ行こっか。\n潤ちゃん。"
 
     r "……またいきなり。"
 
     r "行きたいなら\nひとりで───"
 
-    show j 1905 with Dissolve(0.5)
-
     j "じゃあ、\nひんやりぷるぷる\nわらび餅。"
 
     r "観光地料金で\n飲み食いなんかしない。"
 
-    show j 1901 with Dissolve(0.5)
-
     j "いーじゃない、\nどうせ暇なんだから。"
 
     r "暇じゃない！\nだからぁ、受験生だってのに。"
-
-    show j 1904 with Dissolve(0.5)
 
     j "……潤ちゃんは、\nトゥルーなわらび餅を知らないから、\nそんなこと言えるんだ。"
 
@@ -2976,26 +1854,11 @@ label start:
 
     r "戻ったら、\n作ったげるよ。"
 
-    show j 1903 with Dissolve(0.5)
-        
     j "…………へえー……"
-
-    show j 1901 with Dissolve(0.5)
 
     j "潤ちゃん、優しいんだ。"
 
     r "…か……っ……\nからかうなって…………"
-
-    show j 1902 with Dissolve(0.5)
-    stop sound fadeout 1
-    pause(2)
-
-
-
-
-
-    scene bg 0601-dark1 
-    show z9020-dark1 with Dissolve(3)
 
     "　　　　　………………"
 
@@ -3007,10 +1870,6 @@ label start:
 
     "　　　　　……樹里……"
 
-    hide z9020-dark1 with dissolve
-    show z9021-dark1 with Dissolve(2)
-    pause(2)
-        
     "　　　　　　樹里……　　　　　　　　　　"
 
     "　　僕らも……変わっていくんだ。"
@@ -3023,167 +1882,40 @@ label start:
 
     "　　かえってきてくれるもの……"
 
-    pause(2)
-
-    scene bg 0999 with dissolve
 
 
 
 
 
-
-
-    play music "t04.mp3" fadeout 3
-
-
-
-
-    pause(1)
-    scene bg 0555 with fade
-    pause(0.75)
-    show z9045 with Dissolve(1.75)
-    pause(2.5)
-    hide z9045 with dissolve
-    pause(1.5)
-
-    scene bg 0999
-    show t1 at uu
-    show t2 at uf
-    with fade
-    pause(1)
-
-    show t3 at fu
-    show t4 at ff
-    with dissolve
-    pause(2.5)
-
-    scene bg 0999
-    with dissolve
-
-    show t5 at fu
-    show t6 at ff
-    with dissolve
-    pause(4)
-
-    scene bg 0999
-    with dissolve
-
-
-
-    scene bg 0511 with dissolve
-    show z9024 with dissolve
-    pause(2)
-    hide z9024 with dissolve
-    scene bg 0911 with dissolve
-
-    scene bg 0999 
-    show t7 at fu
-    show t8 at ff
-    with fade
-    pause(4)
-
-    scene bg 0999
-    with dissolve
-
-
-
-    scene bg 0524 with dissolve
-    show z9046 with dissolve
-    pause(2)
-    hide z9046 with dissolve
-    scene bg 0924 with dissolve
-    
-    scene bg 0999 
-    show t9 at fu
-    show t10 at ff
-    show t11 at fd
-    with fade
-    pause(4)
-    scene bg 0999
-    with dissolve
-
-
-
-
-    scene bg 0552 with dissolve
-    show z9047 with dissolve
-    pause(2)
-    hide z9047 with dissolve
-    scene bg 0952 with dissolve
-    
-    scene bg 0999 
-    show t12 at ud
-    show t13 at ff
-    with fade
-    pause(2.5)
-
-    scene bg 0999
-    with dissolve    
-
-    show t12 at ud
-    show t14 at ff
-    with dissolve
-    pause(4)
-    scene bg 0999
-    with dissolve
-
-
-
-    scene bg 0553 with dissolve
-    show z9048 with dissolve
-    pause(2)
-
-    hide z9048
-    show z9049
-    with dissolve
-    pause(2)
-
-    hide z9049 with dissolve
-    scene bg 0953 with dissolve
-    
-    scene bg 0999 
-    show t15 at ud
-    show t16 at fu
-    show t17 at ff
-    show t18 at fd
-    with fade
-    pause(4)
-    scene bg 0999
-    with dissolve
-
-
-
-    scene bg 0544 with dissolve
-    show z9050 with dissolve
-    pause(2)
-
-    hide z9050
-    show z9051
-    with dissolve
-    pause(2)
-
-    hide z9051
-    show z9052
-    with dissolve
-    pause(2)
-
-    hide z9052 with dissolve
-    scene bg 0944 with dissolve
-    
-    scene bg 0999
-    show t19 at fu
-    with fade
-    pause(4)
-    scene bg 0999
-    with dissolve
-    
-    stop music fadeout 3
-    pause(2)
-
-    
-
-    
-    return
-
- 
-
+    fm
+    cr腐り姫
+    fm
+    creuthanasia
+    fm帰省
+    fm～jamais vu～
+    fg企画?シナリオ
+    fm星空めてお
+    fg原画?キャラクターデザイン
+    fm中村哲也
+    fg背景原画
+    fm米谷 要
+    fm協力：スタジオ尻滅裂
+    fgＣＧワーク
+    fmしまさらゆめき
+    fm犬太郎
+    fmａｉｎａ
+    fm白鬼
+    fgＣＧワーク
+    fm中村哲也
+    fmK.TEN
+    s0（小梅けいと）
+    fm桜瑞
+    fg音楽
+    fm雑音工房NOIZE
+    s0（ノーブランド?サウンズ）
+    fgプログラム
+    fmWiz
+    s0（codeX）
+    fg製作?著作
+    fg株式会社ビジネスパートナー
+    fgLiar-soft

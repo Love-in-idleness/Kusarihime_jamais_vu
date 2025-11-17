@@ -796,8 +796,8 @@ screen preferences():
                 vbox:
                     style_prefix "radio"
                     label "语言"
-                    textbutton "简体中文" text_font "SourceHanSansLite.ttf" action Language(None)
-                    textbutton "日本語" text_font "SourceHanSansLite.ttf" action Language("jp")
+                    textbutton "日本語" text_font "SourceHanSansLite.ttf" action Language(None)
+                    textbutton "简体中文" text_font "SourceHanSansLite.ttf" action Language("zh_cn")
 
  
 
