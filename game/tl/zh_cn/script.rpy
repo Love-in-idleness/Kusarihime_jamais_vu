@@ -250,7 +250,7 @@ translate zh_cn start_9406d0c2:
 translate zh_cn start_d5bfb561:
 
     # j "えー？　潤ちゃんは潤ちゃんだよ。\n兄さん、おぼえてないの？"
-    j "欸？润酱就是润酱啊。\n哥哥，你不记得润酱了？"
+    j "欸？　润酱就是润酱啊。\n哥哥，你不记得润酱了？"
 
 # game/script.rpy:351
 translate zh_cn start_6632fc6f:
@@ -328,7 +328,7 @@ translate zh_cn start_087fe7b9:
 translate zh_cn start_123d0ef6:
 
     # r "え？　ないよ。\nいきなり出てきたし。"
-    r "啊？没有呢，毕竟突然就出门了。"
+    r "啊？　没有呢。\n毕竟突然就出门了。"
 
 # game/script.rpy:383
 translate zh_cn start_f848d829:
@@ -808,7 +808,7 @@ translate zh_cn start_86434d3a:
 translate zh_cn start_220b0e4c:
 
     # j "私も芳野ママって\n呼んでいい？　よね？"
-    j "我也可以叫芳野妈妈吧？"
+    j "我也可以叫芳野妈妈吧？\n　可以吧？"
 
 # game/script.rpy:638
 translate zh_cn start_7947c085:
@@ -874,7 +874,7 @@ translate zh_cn start_94ddd80b:
 translate zh_cn start_8bc26959:
 
     # "「ただいま喫煙席での\n　相席となりますが」"
-    "“只有吸烟区可以拼桌，您介意吗？”"
+    "“只有吸烟区可以拼桌，\n　您介意吗？”"
 
 # game/script.rpy:697
 translate zh_cn start_455039c0:
@@ -1678,7 +1678,7 @@ translate zh_cn start_cebd9a8e:
 translate zh_cn start_fc14c59e:
 
     # r "……え？　なにが。"
-    r "……诶？生什么气？"
+    r "……诶？　生什么气？"
 
 # game/script.rpy:1032
 translate zh_cn start_5a6cc860:
@@ -2458,7 +2458,7 @@ translate zh_cn start_16d264dd:
 translate zh_cn start_d1a3f0ce:
 
     # r "ほんとに\n人間なんですか？　その人？"
-    r "她真的是人类吗？\n竟然拒绝了前辈，她以为她谁啊？"
+    r "她真的是人类吗？\n竟然拒绝了前辈？　她以为她谁啊？"
 
 # game/script.rpy:1376
 translate zh_cn start_949cc103:
@@ -3208,7 +3208,7 @@ translate zh_cn start_e4b82daa:
 translate zh_cn start_16ce8b2d:
 
     # y "……健昭さんを恨んでる？　五樹。"
-    y "……你是在埋怨健昭吗？五树。"
+    y "……你是在埋怨健昭吗？　五树。"
 
 # game/script.rpy:1854
 translate zh_cn start_1ddf2499:
@@ -3370,7 +3370,7 @@ translate zh_cn start_df64a5f9:
 translate zh_cn start_c500cb9c:
 
     # i "……何かしたのか？　樹里。"
-    i "……你做了什么？树里。"
+    i "……你做了什么？　树里。"
 
 # game/script.rpy:1923
 translate zh_cn start_fcf595d2:
@@ -3412,7 +3412,7 @@ translate zh_cn start_9b438364:
 translate zh_cn start_2671ff5e:
 
     # j "恥ずかしいの？　潤ちゃん。"
-    j "你很害羞吗？润酱。"
+    j "你很害羞吗？　润酱。"
 
 # game/script.rpy:1937
 translate zh_cn start_44e2051e:
@@ -4024,7 +4024,7 @@ translate zh_cn start_0cf46721:
 translate zh_cn start_85b341fb:
 
     # n "───？　後輩って？"
-    n "——？后辈？"
+    n "——？　后辈？"
 
 # game/script.rpy:2244
 translate zh_cn start_a103b259:
@@ -4276,7 +4276,7 @@ translate zh_cn start_a7d568e3:
 translate zh_cn start_668019f3:
 
     # r "ンあ？　ああ───"
-    r "嗯……啊？"
+    r "嗯……　啊？——"
 
 # game/script.rpy:2380
 translate zh_cn start_fd61a285:
@@ -5104,13 +5104,13 @@ translate zh_cn start_3129d899:
 translate zh_cn start_ab14b661:
 
     # "「……きっともう、時間は、\n　とっくに過ぎてたんだ」"
-    "「过去的日子早一定是烟消云散了……」"
+    "「过去的日子啊，\n　早一定是烟消云散了……」"
 
 # game/script.rpy:2775
 translate zh_cn start_f29982c9:
 
     # "「ただ、僕が、ためらい続けていた\n　だけで……」"
-    "「只有我还在\n　原地徘徊……」"
+    "「只有我还在……\n　原地徘徊……」"
 
 # game/script.rpy:2777
 translate zh_cn start_878d3618_3:
@@ -5122,13 +5122,13 @@ translate zh_cn start_878d3618_3:
 translate zh_cn start_8325463f:
 
     # "「樹里を……\n　楽にしてやりたい……」"
-    "「我想让树里解放……」"
+    "「我想让树里……\n　解放……」"
 
 # game/script.rpy:2781
 translate zh_cn start_593132fa:
 
     # "「これ以上、\n　苦しませたくないんだ……」"
-    "「不想让她再这样痛苦下去了……」"
+    "「不想让她……\n　再这样痛苦下去了……」"
 
 # game/script.rpy:2783
 translate zh_cn start_6ed2ae83:
@@ -5146,7 +5146,7 @@ translate zh_cn start_cdfd18ab:
 translate zh_cn start_2b456847:
 
     # "「セイの父さんを、\n　助けてあげられたのは\n　セイだろ？」"
-    "「以前，坚持让青的父亲继续接受治疗的，^n只有青，对吧？」"
+    "「那时坚持让青的父亲，\n　继续接受治疗的，只有青，\n　对吧？」"
 
 # game/script.rpy:2789
 translate zh_cn start_d77631c9:
@@ -5158,13 +5158,13 @@ translate zh_cn start_d77631c9:
 translate zh_cn start_07efb9dc:
 
     # "「医者は……いつも役立たずだった……\n　もう自分の身体なんかじゃ、\n　なくなっていた……」"
-    "「那些医生都是废物，\n树里的意识已经控制不了自己的身体了\n…………」"
+    "「那些医生……都是废物，\n　树里的意识……\n　已经控制不了自己的身体了…………」"
 
 # game/script.rpy:2793
 translate zh_cn start_a3e0f5a1:
 
     # "「毎晩、動物みたいにうなり声をあげて、\n　あんなにまでして生きなきゃ\n　いけないなんて」"
-    "每晚像野兽一样呻吟，\n为了活下去居然必须忍受这样的不堪……"
+    "每晚像野兽一样呻吟，\n　为了活下去，\n　居然必须忍受这样的不堪……"
 
 # game/script.rpy:2795
 translate zh_cn start_a1889238:
@@ -5242,7 +5242,7 @@ translate zh_cn start_bafb473a:
 translate zh_cn start_b5b3974e:
 
     # "「……もうじゅうぶん、\n　いろんなものを貰ったよ」"
-    "「……我已经在你那里依靠的够多了。」"
+    "「……我在你那里依靠的，\n　已经够多了。」"
 
 # game/script.rpy:2821
 translate zh_cn start_878d3618_4:
@@ -5296,7 +5296,7 @@ translate zh_cn start_26d9279d:
 translate zh_cn start_b4260cb9:
 
     # i "考えてみてくれたかい？　潤。"
-    i "你考虑好了吗？润。"
+    i "你考虑好了吗？　润。"
 
 # game/script.rpy:2853
 translate zh_cn start_966f00ad:
