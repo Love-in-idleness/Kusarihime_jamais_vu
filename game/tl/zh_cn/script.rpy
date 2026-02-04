@@ -4,7 +4,7 @@
 translate zh_cn start_eb4356e0:
 
     # "車窓から降りこむ雨が\n腕を濡らしていた。"
-    "从车窗飘进的雨，打湿了我的手臂。"
+    "车窗飘洒的雨丝，濡湿了我的手臂。"
 
 # game/script.rpy:244
 translate zh_cn start_0bd6f2f6:
@@ -16,73 +16,73 @@ translate zh_cn start_0bd6f2f6:
 translate zh_cn start_d831193a:
 
     # "腕をくんで天井へ向け、\n硬くなった体をほぐす。"
-    "我抱着胳膊看着天花板，\n试图放松变得僵硬的身体。"
+    "我抱着胳膊望向车顶，\n试图舒展僵直的躯体。"
 
 # game/script.rpy:252
 translate zh_cn start_8c571cb7:
 
     # "やがて、いつものように\nべつだん車内放送もないまま、\n列車はひっそりとホームにすべりこんだ。"
-    "不久，列车静静地滑入站台。\n然而并没有广播响起，唯有一如既往的寂静。"
+    "不多时，列车静静滑入站台，\n如往常一般，没有响起任何车内广播。"
 
 # game/script.rpy:256
 translate zh_cn start_11d65ba5:
 
     # "降客が、まばらに改札口へ向かう。"
-    "乘客们陆续下车，\n稀稀拉拉地走向检票口。"
+    "乘客们三三两两下车，\n稀稀拉拉地走向检票口。"
 
 # game/script.rpy:258
 translate zh_cn start_d31de8da:
 
     # "ディーゼル車の低い音がしずまると、\n木造の駅舎は、雨滴の音に包まれた。"
-    "柴油车低沉的运作声渐渐隐去，\n最终只剩下滴答滴答的雨声笼罩着这座木制火车站。"
+    "柴油发动机的低鸣渐次沉静，\n木造的站舍被雨滴声温柔包裹。"
 
 # game/script.rpy:260
 translate zh_cn start_321146c8:
 
     # "漠とした、けだるさを払うあいだ、\n僕は構内に立ち、\nなにげなく周囲を見渡す。"
-    "我站在车站内，\n一边挥去身上的茫然与慵懒，\n一边随意地环顾四周。"
+    "我立在站内，漫然环顾四周，\n试图挥散心中那份莫名的慵倦。"
 
 # game/script.rpy:262
 translate zh_cn start_ab5b1289:
 
     # "ただよう濃密な雨霧が、\n枯尾沼と駅舎との境界を\nあやうくさせる。"
-    "浓密的雨雾模糊了枯尾沼与车站的界限。"
+    "氤氲的雨雾，\n将枯尾沼与站舍的边界\n晕染得模糊而暧昧。"
 
 # game/script.rpy:264
 translate zh_cn start_c3e243b3:
 
     # "夏の日でさえ、この土地は、\n晴れ間をあまり見せてくれない。"
-    "即使是夏季，这里也难见晴天。"
+    "即便时值盛夏，\n这片土地\n也难得展露晴空。"
 
 # game/script.rpy:266
 translate zh_cn start_e86c5071:
 
     # "木造の渡り階段が渡された\nホームに目を移す。"
-    "我又望向木质楼梯连接的站台。"
+    "我又望向那座\n架着木造渡梯的站台。"
 
 # game/script.rpy:268
 translate zh_cn start_5a3aa56b:
 
     # "あちら側はもう、使われなくなって\nずいぶん経つはずだ。"
-    "那边的站台早已废弃不用了。"
+    "对侧那月台，\n想来早已废弃多时了。"
 
 # game/script.rpy:270
 translate zh_cn start_a690e94f:
 
     # "幼いころに、\n貨物列車が停まっていたのを\n見たきり。"
-    "在我还是小孩子时，\n就有货运列车在那里长期搁置不动了。"
+    "在我还是小孩子时，\n就有货运列车\n在那里长期搁置不动了。"
 
 # game/script.rpy:272
 translate zh_cn start_790d188e:
 
     # "駅舎そのものは手入れされて、\n今でも整然と保たれている。"
-    "车站倒是得到很好的维护，\n现如今也依然整洁。"
+    "车站倒是修缮得宜，\n现如今也依然整洁。"
 
 # game/script.rpy:274
 translate zh_cn start_4e96d63f:
 
     # "ただ鉄路だけが、赤錆を浮かせ、\n山あいの鉱山跡へと消えていた。"
-    "只有铁路锈迹斑驳了，\n其一端延伸着，隐没在山谷的矿山遗址里。"
+    "唯有铁轨浮着赤锈，\n向着山谷间的矿山遗迹\n蜿蜒隐没。"
 
 # game/script.rpy:279
 translate zh_cn start_a0bafcda:
@@ -94,7 +94,7 @@ translate zh_cn start_a0bafcda:
 translate zh_cn start_4f00cf40:
 
     # "景観へ向けられていた意識が\n引き戻された。"
-    "我的思绪从周围的风景中被拉了回来。"
+    "沉浸在风景中的意识，\n被这一声轻轻唤回。"
 
 # game/script.rpy:283
 translate zh_cn start_e5bab0b7:
@@ -124,13 +124,13 @@ translate zh_cn start_1a24d5cf:
 translate zh_cn start_ef1d1353:
 
     # "小首をかしげた少女は、\n僕の横に立ち、\n視線の先を追う。"
-    "少女歪着头，站在我旁边，\n我顺着她的视线望去——"
+    "少女微歪着头，\n站到我身旁，\n循着我的视线望去——"
 
 # game/script.rpy:296
 translate zh_cn start_6d68379c:
 
     # j "……あのホームも、線路も、\nほんとはもう、要らないんだよね。"
-    j "……那个站台和铁路，\n其实早都不被人需要了吧。"
+    j "……那个站台，还有铁轨，\n其实早就没用处了吧。"
 
 # game/script.rpy:298
 translate zh_cn start_0386dc64:
@@ -142,13 +142,13 @@ translate zh_cn start_0386dc64:
 translate zh_cn start_6783f042:
 
     # j "でもなんだか、こうして\nずっと待ち続けていると……"
-    j "不过总觉得，\n像这样一直等下去的话……"
+    j "可不知怎的，总觉得\n若是这样一直等下去的话……"
 
 # game/script.rpy:304
 translate zh_cn start_5d6c13f7:
 
     # j "向こうから、昔の列車が、\nガタゴト、やってくるかも。"
-    j "以前的列车，\n会从对面哐当哐当地驶来也说不定。"
+    j "或许会从过去驶来的列车，\n哐当哐当地，从对面出现呢。"
 
 # game/script.rpy:308
 translate zh_cn start_0ba9399f:
@@ -160,7 +160,7 @@ translate zh_cn start_0ba9399f:
 translate zh_cn start_337d1c39:
 
     # "本当に乗りたいと願うなら、\nやってくるのだろうか。"
-    "如果真心许下乘坐这个列车的愿望的话，\n它会向我驶来吗？"
+    "若真心期盼搭乘，\n它是否真会为我而来呢。"
 
 # game/script.rpy:312
 translate zh_cn start_d8e765e2:
@@ -172,7 +172,7 @@ translate zh_cn start_d8e765e2:
 translate zh_cn start_0461bb6b:
 
     # j "あ、うん。\nきっと、そろそろかなって。"
-    j "啊，嗯。\n我就想着，哥哥一定快到了。"
+    j "啊，嗯。\n想着哥哥差不多该到了。"
 
 # game/script.rpy:319
 translate zh_cn start_455e5b60:
@@ -190,7 +190,7 @@ translate zh_cn start_18e1d69d:
 translate zh_cn start_28a8be90:
 
     # j "兄さん、\n傘持ってないでしょう。"
-    j "哥哥，你没带伞对吧？"
+    j "哥哥，\n你没带伞对吧？"
 
 # game/script.rpy:328
 translate zh_cn start_a1715b90:
@@ -202,13 +202,13 @@ translate zh_cn start_a1715b90:
 translate zh_cn start_d5e1a53d:
 
     # j "ホラやっぱり。\nきっとね、そうだと思ったの。"
-    j "看吧，果然跟我想的一样。"
+    j "看吧，果然，\n跟我想的一样。"
 
 # game/script.rpy:335
 translate zh_cn start_e897697b:
 
     # "いかにも得意そうな樹里の手には\n濡れた女物の傘が、一つあるだけだった。"
-    "然而一脸得意的树里手里，\n只有一把湿漉漉的女孩子才会用的小伞。"
+    "然而一脸得意的树里手里，\n只有一把湿漉漉的、\n女孩子才会用的小伞。"
 
 # game/script.rpy:337
 translate zh_cn start_f000ff6a:
@@ -220,13 +220,13 @@ translate zh_cn start_f000ff6a:
 translate zh_cn start_d6b83467:
 
     # j "それが忘れちゃったの。\nあはっ。"
-    j "嘿嘿，忘记了呢。"
+    j "嘿嘿，忘记了呢。\n啊哈哈。"
 
 # game/script.rpy:341
 translate zh_cn start_4fd2142d:
 
     # "得意げなまま、樹里は言ってのける。"
-    "树里这么说，依然一脸得意的样子。"
+    "树里依旧一脸得意地说着。"
 
 # game/script.rpy:343
 translate zh_cn start_5b957b8b:
@@ -238,7 +238,7 @@ translate zh_cn start_5b957b8b:
 translate zh_cn start_ef585feb:
 
     # j "あ、でも、\n潤ちゃんが持ってるよ。たぶん。"
-    j "啊，不过，润酱应该带了，大概。"
+    j "啊，不过，\n润酱应该带了，大概。"
 
 # game/script.rpy:347
 translate zh_cn start_9406d0c2:
@@ -262,7 +262,7 @@ translate zh_cn start_6632fc6f:
 translate zh_cn start_16cd9605:
 
     # "でも、家に誰かを\n連れてきたことなんて\n一度もない。"
-    "不过，她从没带过任何人到家里玩过。"
+    "不过，她从没带过任何人\n到家里玩过。"
 
 # game/script.rpy:358
 translate zh_cn start_3da469ec:
@@ -316,13 +316,13 @@ translate zh_cn start_baa945ce:
 translate zh_cn start_24087423:
 
     # j "ねえ、\n話は家に戻ってからで\nいいじゃない。"
-    j "呐，有事回家再说吧。"
+    j "呐，\n有事回家再说吧。"
 
 # game/script.rpy:379
 translate zh_cn start_087fe7b9:
 
     # j "潤ちゃん、\n傘の予備は？"
-    j "润酱有多带伞吗？"
+    j "润酱，\n有多带伞吗？"
 
 # game/script.rpy:381
 translate zh_cn start_123d0ef6:
@@ -334,7 +334,7 @@ translate zh_cn start_123d0ef6:
 translate zh_cn start_f848d829:
 
     # "樹里は\nとまどう相手の手元を\nぶしつけに観察する。"
-    "树里突然冷不防地盯向不知所措的古泽，\n目光落在她手里握着的伞上。"
+    "突然，树里冷不防地盯向古泽，\n目光落在她手里握着的伞上。"
 
 # game/script.rpy:389
 translate zh_cn start_392c87cc:
@@ -346,37 +346,37 @@ translate zh_cn start_392c87cc:
 translate zh_cn start_8ddbadf5:
 
     # r "これ？\nあ、うん。"
-    r "这个？\n啊，呃……"
+    r "换伞？\n啊，行。"
 
 # game/script.rpy:393
 translate zh_cn start_ddbd7690:
 
     # "樹里は、古澤の手から、\nこうもり傘を受け取り、\nそのまま僕に手渡した。"
-    "树里从古泽手中接过雨伞，直接递给了我。"
+    "树里从古泽手中接过雨伞，\n径直递给了我。"
 
 # game/script.rpy:395
 translate zh_cn start_4376ac1d:
 
     # j "というわけで\n兄さん入れてねえ。"
-    j "就这样，你跟哥哥打一把伞吧。"
+    j "就这样，\n你跟哥哥打一把伞吧。"
 
 # game/script.rpy:397
 translate zh_cn start_a9d76a6c:
 
     # i "また自分だけ\n楽しようとする。"
-    i "你又这样只顾自己的舒服了。"
+    i "你又只顾自己快活了。"
 
 # game/script.rpy:399
 translate zh_cn start_074fef1e:
 
     # j "いいじゃない、\nせっかく可愛い妹が\n迎えにきたんだし。"
-    j "难得有可爱的妹妹来接哥哥，\n看这个份上我这样做也行吧。"
+    j "有什么关系嘛，\n难得有可爱的妹妹来接哥哥，\n看这个份上我这样做也行吧。"
 
 # game/script.rpy:401
 translate zh_cn start_d0808353:
 
     # i "可愛い妹は、\nそんなこと自分で言わないだろ。"
-    i "真正可爱的妹妹可不会这么自夸吧。"
+    i "真正可爱的妹妹\n可不会这么自夸吧。"
 
 # game/script.rpy:406
 translate zh_cn start_0f6bc1f7:
@@ -388,7 +388,7 @@ translate zh_cn start_0f6bc1f7:
 translate zh_cn start_7570f79a:
 
     # r "い、いえ、\nぜんぜん、別に。"
-    r "没、没什么，我完全不在意的。"
+    r "没、没什么，\n我完全不要紧的。"
 
 # game/script.rpy:416
 translate zh_cn start_cfe22161:
@@ -406,61 +406,61 @@ translate zh_cn start_3b124f7e:
 translate zh_cn start_626bcf53:
 
     # "傘をひろげた僕の脇に、\nちゃっかり寄り添ってくる。"
-    "当我撑起伞时，\n树里趁机钻入我的臂膀下，\n紧紧依在我的身上。"
+    "当我撑起伞时，\n树里又趁机钻入我的臂膀下，\n熟稔地依在我的身上。"
 
 # game/script.rpy:426
 translate zh_cn start_74d466ef:
 
     # "ゆるくした襟元からは\nきゃしゃな鎖骨がのぞいていた。"
-    "她纤细的锁骨从松开的领口若隐若现。"
+    "她纤细的锁骨，\n从松开的领口若隐若现。"
 
 # game/script.rpy:428
 translate zh_cn start_b756d049:
 
     # "春以来に顔をあわせる樹里は\n変わらない。"
-    "这是自春天过后第一次看到树里，\n但没看出她有什么变化。"
+    "自春天一别至今再见，\n没看出树里她有什么变化。"
 
 # game/script.rpy:430
 translate zh_cn start_19821bca:
 
     # "いきいきと輝いて\n僕を、まっすぐに見る。"
-    "她一如既往充满活力，\n注视我的目光也始终笔直。"
+    "她一如既往充满活力，\n注视我的眸光也始终熠熠笔直。"
 
 # game/script.rpy:454
 translate zh_cn start_f3624e31:
 
     # "物心ついたころから、\n芳野さんは僕らの輪のなかにいた。"
-    "从我懂事起，\n芳野阿姨的身影便如影随形地融入了我们的生活"
+    "自打记事起，\n芳野阿姨的身影便如影随形地融入了我们的生活。"
 
 # game/script.rpy:456
 translate zh_cn start_71e08ed5:
 
     # "中学にあがるまでは、僕も、樹里も、\n「芳野さん」ではなく、\n「芳野母さん」と呼んだ。"
-    "直到我步入中学之前，\n树里与我都称呼她为“芳野妈妈”，\n而非简单的“阿姨”二字。"
+    "直到我升入中学前，\n树里与我都称呼她为“芳野妈妈”，\n而非略显生分的“阿姨”。"
 
 # game/script.rpy:458
 translate zh_cn start_5c6989e2:
 
     # "そんな芳野さんと父さんとの再婚は\nべつに意外でもなく、\nわかりきっていたことだ。"
-    "对芳野阿姨跟父亲再婚这事儿，\n我感到的不是意外，\n而是理所当然。"
+    "因此，对于父亲与她的再婚，\n我并不感到意外，\n反倒觉得是顺理成章。"
 
 # game/script.rpy:460
 translate zh_cn start_f4089df9:
 
     # "ただ、悪い噂が立つのを避けて、\n時間を置いていただけなんだろう。"
-    "应该只是为了避开外人的流言蜚语，\n他们才做出抉择。"
+    "想来他们只是为了避免流言蜚语，\n才特意将婚期推迟至今吧。"
 
 # game/script.rpy:462
 translate zh_cn start_4936ae96:
 
     # "朱音母さんが死んでから、\n一年半がすぎた。"
-    "我和树里的生母朱音离世一年半之后，\n迈出了这一步。"
+    "在我和树里的生母朱音离世一年半之后，\n才迈出了这一步。"
 
 # game/script.rpy:464
 translate zh_cn start_d088c0e8:
 
     # "さっきまで同席していた\n茂晴伯父にしても、はやくから\nしきりに再婚を勧めていたくちだ。"
-    "刚才还跟我们坐一起的茂晴伯父也早就在鼓励他们结合。"
+    "就连方才还在座的茂晴伯父，\n其实也早早就时常劝说父亲再婚了。"
 
 # game/script.rpy:466
 translate zh_cn start_a2f5f170:
@@ -478,49 +478,49 @@ translate zh_cn start_8fdb9de9:
 translate zh_cn start_51d2d7d5:
 
     # "いや、正直に言うなら、\n手のかからない娘がいる、\nと聞いたことはあった。"
-    "不，老实说，\n我之前听芳野阿姨提及过她的那个不需操心的女儿。"
+    "老实说，\n我之前听芳野阿姨提及过，\n她有个不需操心的女儿。"
 
 # game/script.rpy:472
 translate zh_cn start_cfa24f3c:
 
     # "けれど、芳野さん本人が、\nそれ以上はあまり\n語らなかったし、"
-    "然而芳野阿姨也没主动说过更多的了，\n我也没去进一步打听。"
+    "然而芳野阿姨也没主动说过更多的了，\n我也没进一步打听。"
 
 # game/script.rpy:474
 translate zh_cn start_ed738e38:
 
     # "一緒に連れてくることも\n無かったから、これまで\n気にかけることがなかった。"
-    "因为之前没见过芳野阿姨带她女儿来，\n因此，直到今日亲眼所见，我才真正认知了这个事实。"
+    "之前也没见过芳野阿姨带她女儿来，\n因此，我也未曾将此事挂在心上。"
 
 # game/script.rpy:476
 translate zh_cn start_3405fb04:
 
     # "だから今日の本題は、\n再婚する二人が、家族に\n了解を得るというよりも、"
-    "而今天的主题，与其说是让再婚的两人得到家人的理解，"
+    "所以今天的主题，\n与其说是让再婚的两人征得家人的理解，"
 
 # game/script.rpy:478
 translate zh_cn start_21270fb8:
 
     # "古澤を───いや潤を\n新しい家族として、\nぼくらに紹介するってことなんだろう。"
-    "倒不如说是把古泽——\n不对，\n是把润作为家里新的一员来加以介绍吧。"
+    "倒不如说是把古泽——\n不对，\n是把润作为家里新的一员来介绍吧。"
 
 # game/script.rpy:480
 translate zh_cn start_5234dc41:
 
     # "芳野さんにうながされ\n潤は、いずまいを正した。"
-    "被芳野阿姨催促的润端正了坐姿："
+    "在芳野阿姨的轻声催促下，\n润端正了坐姿。"
 
 # game/script.rpy:485
 translate zh_cn start_1f359d7a:
 
     # r "潤です。\nよろしくお願いします。"
-    r "我是润，请多多关照！"
+    r "我是润，\n今后请多多关照！"
 
 # game/script.rpy:487
 translate zh_cn start_5b00f5b9:
 
     # "まだ緊張が残っているけれど、\nしっかりとした挨拶。"
-    "尽管有些许紧张，\n但润还是认真地完成了自我介绍。"
+    "问候语虽略显拘谨，\n却十分认真得体。"
 
 # game/script.rpy:489
 translate zh_cn start_e535b544:
@@ -532,7 +532,7 @@ translate zh_cn start_e535b544:
 translate zh_cn start_c5eea598:
 
     # "潤は、童顔の残る見かけとは反対に\n頼りになる後輩だった。"
-    "与有些稚气的外表相反，\n润是个很可靠的女孩。"
+    "与有些稚气的外表相反，\n润是个很可靠的后辈。"
 
 # game/script.rpy:493
 translate zh_cn start_a8b1c315:
@@ -550,49 +550,49 @@ translate zh_cn start_132b6be1:
 translate zh_cn start_8056770d:
 
     # j "うん。もちろん。"
-    j "嗯，当然啦！"
+    j "嗯，当然。"
 
 # game/script.rpy:507
 translate zh_cn start_6aba6b9d:
 
     # "そう屈託なく答える。"
-    "树里爽朗地回答。"
+    "树里爽朗的回答显得毫不迟疑。"
 
 # game/script.rpy:509
 translate zh_cn start_33281123:
 
     # j "むかし、\n古い建物の中庭で、\n一緒に遊んだよね。"
-    j "以前在旧建筑物的中庭里一起玩过吧。"
+    j "很久以前，\n在旧楼的中庭里，\n我们一起玩过吧？"
 
 # game/script.rpy:511
 translate zh_cn start_ec41c819:
 
     # i "……それ、どこ？"
-    i "……那是哪里？"
+    i "……旧楼？那是哪儿？"
 
 # game/script.rpy:513
 translate zh_cn start_8a414d32:
 
     # f "きみの青山のアパートへ\n連れて行った時だ。"
-    f "是我之前带你去青山公寓那会儿。"
+    f "是我之前，\n带你去青山公寓那会儿。"
 
 # game/script.rpy:515
 translate zh_cn start_b74efb13:
 
     # f "五樹は小学校にあがったくらいだ。"
-    f "那时候五树才上小学吧。"
+    f "那时候五树才刚上小学吧。"
 
 # game/script.rpy:517
 translate zh_cn start_d25275c6:
 
     # y "ええ。\nもう、あそこも\n取り壊されてしまったけれど。"
-    y "对的对的，现在那里已经被拆除了。"
+    y "是呀，\n不过，现在那里已经被拆了。"
 
 # game/script.rpy:519
 translate zh_cn start_400430b7:
 
     # y "そうね、\n十年以上も前のことだから、\n憶えていなくても無理はないわ。"
-    y "毕竟十多年前的事了，你不记得也正常。"
+    y "毕竟十多年前的事了，\n你不记得也正常。"
 
 # game/script.rpy:525
 translate zh_cn start_7ef750ed:
@@ -604,13 +604,13 @@ translate zh_cn start_7ef750ed:
 translate zh_cn start_0eedcb18:
 
     # "芳野さんが声を弾ませると、\n潤はぎくりと顔をこわばらせた。"
-    "听到芳野阿姨抬高的嗓音，\n润的脸僵住了。"
+    "听到芳野阿姨的清脆笑声，\n润的表情却一下子僵住了。"
 
 # game/script.rpy:532
 translate zh_cn start_62f7e154:
 
     # y "潤ったら、ノラ猫を怖がって\n泣き出してしまって……"
-    y "润那孩子还因为害怕野猫哭了起来……"
+    y "那时小润她呀，被野猫吓到，\n都哭出来了……"
 
 # game/script.rpy:534
 translate zh_cn start_da1bf3fd:
@@ -622,25 +622,25 @@ translate zh_cn start_da1bf3fd:
 translate zh_cn start_58e89040:
 
     # r "マ……ッ"
-    r "妈！"
+    r "妈……！"
 
 # game/script.rpy:541
 translate zh_cn start_52c024c3:
 
     # i "へえ。"
-    i "啊。"
+    i "哦？"
 
 # game/script.rpy:546
 translate zh_cn start_4349e784:
 
     # r "マ、ママッ！\nそういう事……っ"
-    r "诶、诶！还有这种事儿吗……"
+    r "妈、妈妈！\n这种事就别提了……"
 
 # game/script.rpy:551
 translate zh_cn start_4d00bbc1:
 
     # y "はいはい。"
-    y "嗯嗯。"
+    y "好啦好啦。"
 
 # game/script.rpy:553
 translate zh_cn start_2bddf7b7:
@@ -652,7 +652,7 @@ translate zh_cn start_2bddf7b7:
 translate zh_cn start_b7353cad:
 
     # "一呼吸おいて、\n父さんは潤に頭をさげた。"
-    "父亲深吸一口气，向润鞠躬致意。"
+    "父亲顿了顿，\n向润低头致意。"
 
 # game/script.rpy:561
 translate zh_cn start_c3bfe742:
@@ -664,13 +664,13 @@ translate zh_cn start_c3bfe742:
 translate zh_cn start_7e91dfa9:
 
     # f "きみが再婚に\n納得してくれたことは、\n恩にきるよ。"
-    f "真心谢谢你能同意我和你母亲的在一起。"
+    f "真心谢谢你，\n谢谢能同意这桩婚事。"
 
 # game/script.rpy:565
 translate zh_cn start_70024a19:
 
     # f "こうして一緒に\nとうかんもりに\n来てくれたことも。"
-    f "也同时谢谢你能选择来到稻荷森。"
+    f "也同时谢谢你\n愿意这样来到稻荷森。"
 
 # game/script.rpy:570
 translate zh_cn start_b793704c:
@@ -712,7 +712,7 @@ translate zh_cn start_e71c9b4f:
 translate zh_cn start_865da23b:
 
     # r "こちらこそ、\nおねがい、します。"
-    r "这应该由我来说才对，还请大家能多多关照。"
+    r "这应该由我来说才对，\n还请大家能多多关照。"
 
 # game/script.rpy:587
 translate zh_cn start_899546f1:
@@ -736,37 +736,37 @@ translate zh_cn start_5a195a64:
 translate zh_cn start_eb606277:
 
     # j "夏休みが終わったら、\n一緒に登校できるよね？"
-    j "暑假结束后，一起上学吧？"
+    j "暑假结束后，\n上学就该一块儿走了，对吧？"
 
 # game/script.rpy:602
 translate zh_cn start_7b8a1782:
 
     # r "そ、そう思うけど。\n……ママ？"
-    r "应、应该可以……\n妈妈？"
+    r "应、应该是这样的……\n妈妈？"
 
 # game/script.rpy:604
 translate zh_cn start_37cbe079:
 
     # y "樹里とは同じ学校よ。\nこれからは列車通学ね。"
-    y "你和树里在同一所学校哦，\n以后就是乘列车上下学了呢。"
+    y "你和树里在同一所学校哦，\n以后要乘列车上下学了呢。"
 
 # game/script.rpy:606
 translate zh_cn start_6df1d310:
 
     # j "すっごいヒマなの～\n列車通学って。"
-    j "乘列车上学真是超悠闲的～"
+    j "乘列车上学，\n超～悠闲的。"
 
 # game/script.rpy:608
 translate zh_cn start_4b56bdc5:
 
     # i "進学を考えてるんだったら、\n普通は通学時間には\n勉強してるだろう。"
-    i "如果要考虑升学的话，\n一般都要在上学的路上学习吧。"
+    i "如果想升学的话，\n一般都要在通勤时间学习吧。"
 
 # game/script.rpy:613
 translate zh_cn start_e495f475:
 
     # j "兄さん、\n勉強は学校でするのよ。"
-    j "哥哥，学习这种事在学校里弄就行了吧。"
+    j "哥哥，\n学习这种事在学校里弄就行了吧。"
 
 # game/script.rpy:615
 translate zh_cn start_d6b88a2b:
@@ -778,7 +778,7 @@ translate zh_cn start_d6b88a2b:
 translate zh_cn start_5fa1b381:
 
     # "とりたてて\n勉強しているそぶりなどないのに、\n樹里の成績は良好らしい。"
-    "值得一提的是，\n尽管树里平时并不怎么学习，\n但成绩却很好。"
+    "树里平日里\n也看不出多用功，\n成绩倒不错。"
 
 # game/script.rpy:619
 translate zh_cn start_c0ea5c31:
@@ -790,7 +790,7 @@ translate zh_cn start_c0ea5c31:
 translate zh_cn start_09e11a5e:
 
     # j "でも楽しみだな。\nワクワクする。"
-    j "话说挺令人期待啊，感觉会很开心呢。"
+    j "不过真让人期待呢。\n心里都雀跃起来了。"
 
 # game/script.rpy:626
 translate zh_cn start_e42831d8:
@@ -814,7 +814,7 @@ translate zh_cn start_220b0e4c:
 translate zh_cn start_7947c085:
 
     # "ずき、と\n胸が痛んだ。"
-    "突然间，一阵刺痛穿透了我的胸膛。"
+    "心头\n倏地一痛。"
 
 # game/script.rpy:640
 translate zh_cn start_1be4bd4d:
@@ -832,7 +832,7 @@ translate zh_cn start_28277e64:
 translate zh_cn start_da07c52f:
 
     # "やわらかな芳野さんの声が\nつらかった。"
-    "芳野阿姨那温和的声音于我却像是一把尖刀。"
+    "芳野阿姨那温和的声音\n于我却像是一把钝刀。"
 
 # game/script.rpy:656
 translate zh_cn start_89ec3b07:
@@ -850,7 +850,7 @@ translate zh_cn start_bf2257c4:
 translate zh_cn start_14bc020a:
 
     # j "そうよ、兄さん。\nまたすぐに帰ったりしたら、\nいやよ？"
-    j "是哦，哥哥可不要又太早回去了哟。"
+    j "是哦，哥哥。\n你可不要又太早回去了哟。"
 
 # game/script.rpy:685
 translate zh_cn start_73c28fa6:
