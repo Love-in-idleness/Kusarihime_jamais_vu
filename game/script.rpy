@@ -245,7 +245,7 @@ label start:
 
     stop sound fadeout 1
 
-    play music "t07.mp3" fadein 1.0
+    play music "t07.ogg" fadein 1.0
 
     "腕をくんで天井へ向け、\n硬くなった体をほぐす。"
 
@@ -443,7 +443,7 @@ label start:
 
 
     pause(1)
-    play music "t01.mp3" fadein 1.0
+    play music "t01.ogg" fadein 1.0
     scene bg 0702 with fade
     show z1046
     show z9001
@@ -716,7 +716,7 @@ label start:
 
     "それから、ちびちびと\n何度かカップに口をつけたころ\n相席の男性の視線に気づいた。"
 
-    play music "t03.mp3" fadein 1
+    play music "t03.ogg" fadein 1
 
     "吸い寄せられるように\n顔が向き合うと、男性は一礼して、\n意外なことを言った。"
 
@@ -912,7 +912,7 @@ label start:
     with Fade(1.0, 1.0, 1.0)
     show z9016
     show z9017
-    play music "t09.mp3" fadein 1
+    play music "t09.ogg" fadein 1
     play remusic "0603.mp3" fadein 1
 
     "草いきれの中をつづく\n廃線跡。"
@@ -1448,7 +1448,7 @@ label start:
 
     r "…………"
 
-    play music "t02.mp3" fadeout 1.0
+    play music "t02.ogg" fadeout 1.0
     r "………樹里………？"
 
     play sound "0607.mp3" fadeout 1.0
@@ -1612,7 +1612,7 @@ label start:
 
     n "ええ～と～～"
 
-    play music "t10.mp3" fadein 1.0
+    play music "t10.ogg" fadein 1.0
 
     show n 5301
     with Dissolve(0.5)
@@ -1681,7 +1681,7 @@ label start:
 
 
     scene bg 0702 with fade
-    play music "t05.mp3" fadein 1
+    play music "t05.ogg" fadein 1
 
     "芳野さん、潤、樹里。\n女性３人が厨房に立つ光景は\nなかなか華やかだった。"
 
@@ -1942,7 +1942,7 @@ label start:
 
     "芳野さんがすっと立った。"
 
-    play music "t07.mp3" fadein 1
+    play music "t07.ogg" fadein 1
 
     "和やかな空気に似合わぬ\nかたい顔をしている。"
 
@@ -2054,7 +2054,7 @@ label start:
 
     "椅子にかけると、\nシンプルなフローリングの部屋からは、\n煙草の匂いがした。"
 
-    play music "t03.mp3" fadein 1
+    play music "t03.ogg" fadein 1
 
     "それほど\n嫌な匂いではなかった。"
 
@@ -2384,7 +2384,7 @@ label start:
     r "……え……っ……"
 
     hide z9023 with dissolve
-    play music "t06.mp3" fadein 1
+    play music "t06.ogg" fadein 1
 
     "面くらう潤を置いて\n樹里はすっと前へ出て、\n暗闇にとけ込んでいく。"
 
@@ -2746,7 +2746,7 @@ label start:
 
     "「セイ……」"
 
-    play music "t08.mp3" fadein 1
+    play music "t08.ogg" fadein 1
 
     g "…………五樹か？"
 
@@ -3033,7 +3033,7 @@ label start:
 
 
 
-    play music "t04.mp3" fadeout 3
+    play music "t04.ogg" fadeout 3
 
 
 
