@@ -1414,7 +1414,7 @@ translate zh_cn start_c91e202b:
 translate zh_cn start_5b82ef2c:
 
     # "道がわりの線路なんて、はじめてだと、\n慎重に嬉しさを隠しながら\n潤は言った。"
-    "「我还是第一次见到这样的换道线路。」\n相比平日的慎重，\n此刻润的话语中多了份欣喜。"
+    "「把铁轨当路走，我还是头一回呢。」\n相比平日的慎重，\n此刻润的话语中多了份欣喜。"
 
 # game/script.rpy:922
 translate zh_cn start_d5d317b2:
@@ -1552,37 +1552,37 @@ translate zh_cn start_112ad25f:
 translate zh_cn start_045fce0e:
 
     # i "そのうち\nかじかが鳴きだしたら\nちょうどよくなるさ。"
-    i "不过过几天就没这事了，\n「咕咕嘎嘎」要开始叫了。"
+    i "不过过几天就没这问题了，\n河鹿要开始叫了。"
 
 # game/script.rpy:980
 translate zh_cn start_bb4081f3:
 
     # r "かじかって？"
-    r "「咕咕嘎嘎」？"
+    r "河鹿？"
 
 # game/script.rpy:982
 translate zh_cn start_007aaa51:
 
     # i "カエルだよ。"
-    i "一种青蛙。"
+    i "一种蛙。"
 
 # game/script.rpy:984
 translate zh_cn start_07002d4b:
 
     # r "ケ、ケーロケロケロ……"
-    r "嘎嘎嘎嘎嘎……？"
+    r "咕呱咕呱咕呱……？"
 
 # game/script.rpy:986
 translate zh_cn start_e3b3d7f4:
 
     # i "もっときれいに鳴くんだ。\nルルルルって。口笛みたいな。"
-    i "它们的叫声更清脆，\n咕咕咕咕咕，\n像口哨一样。"
+    i "它们的叫声更清脆，\n噜噜噜，\n像口哨一样。"
 
 # game/script.rpy:988
 translate zh_cn start_eff856fa:
 
     # r "へえ……妙なカエル。"
-    r "诶……真是奇怪的青蛙。"
+    r "诶……真是有意思的蛙。"
 
 # game/script.rpy:990
 translate zh_cn start_ed09f14b:
@@ -5368,7 +5368,7 @@ translate zh_cn start_61201772:
 translate zh_cn start_bdf27c6e:
 
     # i "……きみ、やっぱり\nしっかりしてるな。\n僕なんかより、ずっと。"
-    i "润果然可靠啊，比我这种人可靠多了。"
+    i "润果然可靠啊，\n比我这种人可靠多了。"
 
 # game/script.rpy:2877
 translate zh_cn start_cb76ca5e:
@@ -5416,7 +5416,7 @@ translate zh_cn start_dc311820:
 translate zh_cn start_acbd8ddf:
 
     # r "何してたんだよ。\nたったいま、発車したとこ\nだったのに。"
-    r "你怎么现在才来？火车已经发车了。"
+    r "你怎么现在才来？\n火车已经发车了。"
 
 # game/script.rpy:2908
 translate zh_cn start_53555ae6:
@@ -5542,7 +5542,7 @@ translate zh_cn start_da860d38:
 translate zh_cn start_0bb2b8f3:
 
     # r "暇じゃない！\nだからぁ、受験生だってのに。"
-    r "才不闲！所以说，我可是考生啊。"
+    r "才不闲！\n所以说，我可是考生啊。"
 
 # game/script.rpy:2969
 translate zh_cn start_c91573e2:
@@ -5566,7 +5566,7 @@ translate zh_cn start_02f56192:
 translate zh_cn start_fd6896bd:
 
     # r "……そんなの、粉さえあれば\nすぐできるっての。"
-    r "……那种东西，只要有粉，马上就能做出来啦。"
+    r "……那种东西，只要有粉，\n马上就能做出来啦。"
 
 # game/script.rpy:2977
 translate zh_cn start_5edda60f:
